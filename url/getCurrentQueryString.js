@@ -1,5 +1,6 @@
 /**
  * getCurrentQueryString
+ *
  * @return {String} e.g. "foo=bar&fizz=buzz" (no ? symbol)
  */
 function getCurrentQueryString() {

@@ -1,5 +1,6 @@
 /**
  * getUrlHash
+ *
  * @return {String} (no # symbol)
  */
 function getUrlHash() {

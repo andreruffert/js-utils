@@ -1,5 +1,6 @@
 /**
- * once A wrapper for a function which you only want to run once.
+ * A wrapper for a function which you only want to run once.
+ *
  * @param  {Function} fn
  * @param  {[type]}   context
  * @return {[type]}

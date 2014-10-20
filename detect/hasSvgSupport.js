@@ -1,5 +1,6 @@
 /**
- * hasSvgSupport description
+ * hasSvgSupport
+ *
  * @return {Boolean} true or false
  */
 function hasSvgSupport() {

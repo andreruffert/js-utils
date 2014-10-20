@@ -1,5 +1,6 @@
 /**
  * getOrientation
+ *
  * @return {String} portrait or landscape
  */
 function getOrientation() {

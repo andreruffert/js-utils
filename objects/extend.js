@@ -1,6 +1,7 @@
 /**
- * extend
- * @param  {Object} Extend a given object with all the properties in passed-in object(s).
+ * Extend a given object with all the properties in passed-in object(s).
+ *
+ * @param  {Object} obj
  * @return {Object}
  */
 function extend(obj) {

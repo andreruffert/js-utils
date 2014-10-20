@@ -1,5 +1,6 @@
 /**
  * hasTouchScreen
+ *
  * @return {Boolean} true or false
  */
 function hasTouchScreen() {

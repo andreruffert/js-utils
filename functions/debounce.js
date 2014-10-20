@@ -2,8 +2,8 @@
  * Returns a debounced function that will make sure the given
  * function is not triggered too much.
  *
- * @param  {Function} fn to debounce.
- * @param  {Number}   debounceDuration OPTIONAL. The amount of time in milliseconds for which we will debounce the function. (defaults to 100ms)
+ * @param  {Function} fn                Function to debounce.
+ * @param  {Number}   debounceDuration  OPTIONAL. The amount of time in milliseconds for which we will debounce the function. (defaults to 100ms)
  * @return {Function}
  */
 function debounce(fn, debounceDuration) {

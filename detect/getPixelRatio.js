@@ -1,5 +1,6 @@
 /**
  * getPixelRatio
+ *
  * @return {Number}
  */
 function getPixelRatio() {
