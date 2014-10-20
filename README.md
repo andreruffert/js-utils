@@ -30,3 +30,8 @@ Take what you need!
 * [getCurrentQueryString()](/url/getCurrentQueryString.js)
 * [getUrlHash()](/url/getUrlHash.js)
 * [getUrlVars()](/url/getUrlVars.js)
+
+
+## License
+
+MIT © [André Ruffert](http://andreruffert.com)
