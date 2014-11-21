@@ -1,0 +1,23 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "A collection of some JavaScript utility functions",
+  "scripts": {
+    "jsfmt": "node ./node_modules/jsfmt/bin/jsfmt -w **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreruffert/js-utils.git"
+  },
+  "author": "André Ruffert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreruffert/js-utils/issues"
+  },
+  "homepage": "https://github.com/andreruffert/js-utils",
+  "devDependencies": {
+    "esformatter-quotes": "^1.0.0",
+    "esformatter-semicolons": "^1.0.3",
+    "jsfmt": "^0.4.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "formatting": "https://github.com/ionutvmi/sublime-jsfmt#formatting-rules",
+  "plugins": [
+    "esformatter-quotes",
+    "esformatter-semicolons",
+    "esformatter-braces"
+  ],
+  "quotes": {
+    "type": "single",
+    "avoidEscape": false
+  },
+  "indent": {
+    "value": "    " // four spaces
+  },
+  "whiteSpace": {
+    "value" : " ",
+    "removeTrailing" : 1,
+
+    "before": {
+      "ArgumentList": 0,
+      "ArgumentListObjectExpression": 1,
+      "ArgumentListFunctionExpression": 1,
+      "ArgumentListArrayExpression": 1
+    },
+    "after": {
+      "ArgumentList": 0,
+      "ArgumentListObjectExpression": 1,
+      "ArgumentListFunctionExpression": 1,
+      "ArgumentListArrayExpression": 1
+    }
+  }
+}
