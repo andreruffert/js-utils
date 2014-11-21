@@ -8,6 +8,7 @@ Take what you need!
 * [hasSvgSupport()](/detect/hasSvgSupport.js)
 * [hasTouchScreen()](/detect/hasTouchScreen.js)
 * [isModernBrowser()](/detect/isModernBrowser.js)
+* [hasWebComponentSupport()](/detect/hasWebComponentSupport.js)
 
 ### element
 * [hasHorizontalScrollBar()](/element/hasHorizontalScrollBar.js)
