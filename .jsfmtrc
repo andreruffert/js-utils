@@ -19,13 +19,13 @@
     "before": {
       "ArgumentList": 0,
       "ArgumentListObjectExpression": 1,
-      "ArgumentListFunctionExpression": 1,
+      "ArgumentListFunctionExpression": 0,
       "ArgumentListArrayExpression": 1
     },
     "after": {
       "ArgumentList": 0,
       "ArgumentListObjectExpression": 1,
-      "ArgumentListFunctionExpression": 1,
+      "ArgumentListFunctionExpression": 0,
       "ArgumentListArrayExpression": 1
     }
   }
