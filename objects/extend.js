@@ -6,7 +6,7 @@
  */
 function extend(obj) {
     var i, l, prop, source;
-    for (i=1, l=arguments.length; i<l; ++i) {
+    for (i = 1, l = arguments.length; i < l; ++i) {
         source = arguments[i];
         for (prop in source) {
             if (hasOwnProperty.call(source, prop)) {

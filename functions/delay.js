@@ -7,5 +7,7 @@
  */
 function delay(fn, wait) {
     var args = Array.prototype.slice.call(arguments, 2);
-    return setTimeout(function(){ return fn.apply(null, args); }, wait);
+    return setTimeout(function() {
+        return fn.apply(null, args);
+    }, wait);
 }

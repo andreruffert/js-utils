@@ -5,7 +5,7 @@
  */
 function getOrientation() {
     var orientation = ['portrait', 'landscape'];
-    if(typeof window.orientation !== 'undefined') {
+    if (typeof window.orientation !== 'undefined') {
         return (window.orientation === 0) ? orientation[0] : orientation[1];
     }
 

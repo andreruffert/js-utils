@@ -15,10 +15,10 @@ function debounce(fn, debounceDuration) {
             fn.debouncing = true;
         }
         clearTimeout(fn.debounceTimeout);
-        fn.debounceTimeout = setTimeout(function(){
+        fn.debounceTimeout = setTimeout(function() {
             fn.debouncing = false;
         }, debounceDuration);
 
         return fn.lastReturnVal;
     };
-};
+}
