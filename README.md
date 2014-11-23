@@ -2,6 +2,9 @@
 
 Take what you need!
 
+### array
+* [toArray()](/array/toArray.js)
+
 ### detect
 * [getOrientation()](/detect/getOrientation.js)
 * [getPixelRatio()](/detect/getPixelRatio.js)
