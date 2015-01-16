@@ -30,6 +30,9 @@ Take what you need!
 * [isFunction()](/objects/isFunction.js)
 * [isString()](/objects/isString.js)
 
+### string
+* [stripTags()](/string/stripTags.js)
+
 ### url
 * [getCurrentQueryString()](/url/getCurrentQueryString.js)
 * [getUrlHash()](/url/getUrlHash.js)
