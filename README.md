@@ -5,6 +5,9 @@ Take what you need!
 ### array
 * [toArray()](/array/toArray.js)
 
+### date
+* [daysInMonth()](/date/daysInMonth.js)
+
 ### detect
 * [getOrientation()](/detect/getOrientation.js)
 * [getPixelRatio()](/detect/getPixelRatio.js)
