@@ -1,6 +1,6 @@
-# A collection of some JavaScript utility functions.
+# A collection of some JavaScript utility functions for everyday use.
 
-Take what you need!
+Take what you need! :v:
 
 ### array
 * [toArray()](/array/toArray.js)
