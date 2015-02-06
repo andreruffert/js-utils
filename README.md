@@ -24,6 +24,7 @@ Take what you need! :v:
 * [debounce()](/functions/debounce.js)
 * [delay()](/functions/delay.js)
 * [once()](/functions/once.js)
+* [selectContent()](/functions/selectContent.js)
 
 ### number
 * [pad()](/number/pad.js)
