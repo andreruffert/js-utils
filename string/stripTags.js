@@ -4,5 +4,5 @@
  * @return {String}
  */
 function stripTags(str) {
-    return str.replace(/(<([^>]+)>)/ig, '');
+    return str.replace(/<[^>]+>/ig, '');
 }
