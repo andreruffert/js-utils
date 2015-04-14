@@ -13,6 +13,7 @@ Take what you need! :v:
 * [getPixelRatio()](/detect/getPixelRatio.js)
 * [hasSvgSupport()](/detect/hasSvgSupport.js)
 * [hasTouchScreen()](/detect/hasTouchScreen.js)
+* [isAndroid()](/detect/isAndroid.js)
 * [isModernBrowser()](/detect/isModernBrowser.js)
 * [hasWebComponentSupport()](/detect/hasWebComponentSupport.js)
 
