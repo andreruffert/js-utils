@@ -22,6 +22,7 @@ Take what you need! :v:
 ### element
 * [hasHorizontalScrollBar()](/element/hasHorizontalScrollBar.js)
 * [hasVerticalScrollBar()](/element/hasVerticalScrollBar.js)
+* [isHidden()](/element/isHidden.js)
 
 ### functions
 * [debounce()](/functions/debounce.js)
