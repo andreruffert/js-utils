@@ -1,18 +1,17 @@
 /**
  * getUrlVars
  *
- * @param  {Object} options
+ * @param  {Object} options  { query: 'foo=bar&fizz=buzz' }
  * @return {Object}          A map of querystrings e.g. ?foo=bar&fizz=buzz returns x.foo = 'bar' and x.fizz = 'buzz'
  */
 function getUrlVars(options) {
-    var opts = options || {},
-        vars = {},
-        hash,
-        hashes = (opts.query || getCurrentQueryString()).split('&'),
-        hashLength = hashes.length;
-    for (var i = 0; i < hashLength; i++) {
-        hash = hashes[i].split('=');
-        vars[hash[0]] = hash[1];
-    }
-    return vars;
+    var opts = options || {};
+    var hashes = (opts.query || getCurrentQueryString()).split('&');
+    var hashLength = hashes.length;
+
+    return hashes.reduce(function(o, v, i) {
+        v = v.split('=');
+        o[v[0]] = v[1];
+        return o;
+    }, {});
 }
