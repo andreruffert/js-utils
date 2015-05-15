@@ -1,8 +1,9 @@
 /**
- * Detect whether a DOM element has a visible vertical scrollbar.
+ * Detect whether a DOM `element` has a visible vertical scrollbar.
  *
+ * @param  {Element}  element
  * @return {Boolean}
  */
-Element.prototype.hasVerticalScrollBar = Element.prototype.hasVerticalScrollBar || function() {
-    return this ? this.scrollHeight > this.offsetHeight : false;
-};
+function hasVerticalScrollBar(element) {
+    return element ? element.scrollHeight > element.offsetHeight : false;
+}
