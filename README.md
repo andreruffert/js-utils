@@ -24,19 +24,19 @@ Take what you need! :v:
 * [hasVerticalScrollBar()](/element/hasVerticalScrollBar.js)
 * [isHidden()](/element/isHidden.js)
 
-### functions
-* [debounce()](/functions/debounce.js)
-* [delay()](/functions/delay.js)
-* [once()](/functions/once.js)
-* [selectContent()](/functions/selectContent.js)
+### function
+* [debounce()](/function/debounce.js)
+* [delay()](/function/delay.js)
+* [once()](/function/once.js)
+* [selectContent()](/function/selectContent.js)
 
 ### number
 * [pad()](/number/pad.js)
 
-### objects
-* [extend()](/objects/extend.js)
-* [isFunction()](/objects/isFunction.js)
-* [isString()](/objects/isString.js)
+### object
+* [extend()](/object/extend.js)
+* [isFunction()](/object/isFunction.js)
+* [isString()](/object/isString.js)
 
 ### string
 * [stripTags()](/string/stripTags.js)
