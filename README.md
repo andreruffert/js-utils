@@ -39,6 +39,7 @@ Take what you need! :v:
 * [isString()](/object/isString.js)
 
 ### string
+* [slugify()](/string/slugify.js)
 * [stripTags()](/string/stripTags.js)
 
 ### url
