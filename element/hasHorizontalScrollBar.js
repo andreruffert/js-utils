@@ -1,9 +1,8 @@
 /**
- * Detect whether a DOM `element` has a visible horizontal scrollbar.
+ * Detect whether a DOM element has a visible horizontal scrollbar.
  *
- * @param  {Element}  element
  * @return {Boolean}
  */
-function hasHorizontalScrollBar(element) {
-    return element ? element.scrollWidth > element.offsetWidth : false;
+Element.prototype.hasHorizontalScrollBar = Element.prototype.hasHorizontalScrollBar || function() {
+    return this ? this.scrollWidth > this.offsetWidth : false;
 };
