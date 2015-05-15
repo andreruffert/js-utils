@@ -12,3 +12,5 @@
 function toArray(nodeList) {
     return Array.prototype.slice.call(nodeList);
 }
+
+module.exports = toArray;

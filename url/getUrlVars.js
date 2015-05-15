@@ -20,3 +20,5 @@ function getUrlVars(options) {
         return o;
     }, {});
 }
+
+module.exports = getUrlVars;

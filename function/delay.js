@@ -18,3 +18,5 @@ function delay(fn, wait) {
         return fn.apply(null, args);
     }, wait);
 }
+
+module.exports = delay;

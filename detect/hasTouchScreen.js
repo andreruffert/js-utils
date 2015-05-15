@@ -11,3 +11,5 @@
 function hasTouchScreen() {
     return ('ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch) ? !0 : !1;
 }
+
+module.exports = hasTouchScreen;

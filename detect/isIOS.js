@@ -11,3 +11,5 @@
 function isIOS() {
     return /(iPad|iPhone|iPod touch)/i.test(navigator.userAgent);
 }
+
+module.exports = isIOS;

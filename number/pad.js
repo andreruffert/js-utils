@@ -18,3 +18,5 @@ function pad(number, length) {
     }
     return str;
 }
+
+module.exports = pad;

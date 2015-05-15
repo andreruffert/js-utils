@@ -12,3 +12,5 @@
 function hasVerticalScrollBar(element) {
     return element ? element.scrollHeight > element.offsetHeight : false;
 }
+
+module.exports = hasVerticalScrollBar;

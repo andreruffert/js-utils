@@ -16,3 +16,5 @@ function getOrientation() {
 
     return (window.innerHeight > window.innerWidth) ? orientation[0] : orientation[1];
 }
+
+module.exports = getOrientation;

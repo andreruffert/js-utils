@@ -28,3 +28,5 @@ function debounce(fn, debounceDuration) {
         return fn.lastReturnVal;
     };
 }
+
+module.exports = debounce;

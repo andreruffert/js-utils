@@ -12,3 +12,5 @@
 function stripTags(str) {
     return str.replace(/<[^>]+>/ig, '');
 }
+
+module.exports = stripTags;

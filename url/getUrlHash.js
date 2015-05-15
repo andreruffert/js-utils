@@ -11,3 +11,5 @@
 function getUrlHash() {
     return location.hash.replace(/^#/, '') || false;
 }
+
+module.exports = getUrlHash;

@@ -19,3 +19,5 @@ function hasWebcomponentSupport() {
     }
     return false;
 }
+
+module.exports = hasWebcomponentSupport;

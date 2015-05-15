@@ -17,3 +17,5 @@ function isModernBrowser() {
     }
     return false;
 }
+
+module.exports = isModernBrowser;

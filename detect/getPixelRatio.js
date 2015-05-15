@@ -11,3 +11,5 @@
 function getPixelRatio() {
     return Math.floor(window.devicePixelRatio) || 1;
 }
+
+module.exports = getPixelRatio;

@@ -11,3 +11,5 @@
 function getCurrentQueryString() {
     return window.location.search.replace(/^\?/, '');
 }
+
+module.exports = getCurrentQueryString;

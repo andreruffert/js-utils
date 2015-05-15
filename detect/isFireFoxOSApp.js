@@ -11,3 +11,5 @@
 function isFireFoxOSApp() {
     return navigator.mozApps && !window.locationbar.visible;
 }
+
+module.exports = isFireFoxOSApp;

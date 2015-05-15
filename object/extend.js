@@ -21,3 +21,5 @@ function extend(obj) {
     }
     return obj;
 }
+
+module.exports = extend;

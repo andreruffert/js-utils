@@ -13,3 +13,5 @@
 function isHidden(element) {
     return (element && element.offsetParent === null);
 }
+
+module.exports = isHidden;

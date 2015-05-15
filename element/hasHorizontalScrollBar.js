@@ -12,3 +12,5 @@
 function hasHorizontalScrollBar(element) {
     return element ? element.scrollWidth > element.offsetWidth : false;
 }
+
+module.exports = hasHorizontalScrollBar;
