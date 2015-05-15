@@ -18,3 +18,5 @@ function slugify(str) {
 
   return str;
 }
+
+module.exports = slugify;
