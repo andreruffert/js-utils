@@ -1,10 +1,16 @@
 /**
- * Returns a debounced function that will make sure the given
- * function is not triggered too much.
+ * Returns a debounced function that will make sure
+ * the given function is not triggered too much.
  *
- * @param  {Function} fn                Function to debounce.
- * @param  {Number}   debounceDuration  OPTIONAL. The amount of time in milliseconds for which we will debounce the function. (defaults to 100ms)
+ * @category Function
+ * @param {Function} fn Function to debounce.
+ * @param {Number} debounceDuration OPTIONAL (defaults to 100ms)
+ *  The amount of time in milliseconds for which we will debounce the function.
  * @return {Function}
+ * @example
+ *
+ * // avoid costly calculations while the window size is in flux
+ * jQuery(window).on('resize', debounce(calculateLayout, 150));
  */
 function debounce(fn, debounceDuration) {
     debounceDuration = debounceDuration || 100;

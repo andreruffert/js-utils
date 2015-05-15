@@ -1,18 +1,21 @@
 /**
  * A wrapper for a function which you only want to run once.
  *
- * @param  {Function} fn
- * @param  {[type]}   context
+ * @category Function
+ * @param {Function} fn
+ * @param {[type]} context
  * @return {[type]}
- *
- * @usage
+ * @example
  *
  * var execOnce = once(function() {
- *    console.log('executed!');
+ *     console.log('executed!');
  * });
  *
- * execOnce(); // "executed!"
- * execOnce(); // nothing
+ * execOnce();
+ * // => logs "executed!"
+ *
+ * execOnce();
+ * // => logs nothing
  */
 function once(fn, context) {
     var result;

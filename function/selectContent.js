@@ -1,12 +1,16 @@
 /**
  * Select all the content of an element.
  *
- * @param  {NODE}
+ * @category Function
+ * @param {Element}
+ * @example
+ *
+ * selectContent(document.querySelector('.element'));
  */
-function selectContent(el) {
+function selectContent(element) {
     var range = document.createRange();
     var selection = window.getSelection();
-    range.selectNodeContents(el);
+    range.selectNodeContents(element);
     selection.removeAllRanges();
     selection.addRange(range);
 }

@@ -1,8 +1,12 @@
 /**
- * hasWebcomponentSupport
- * Detect native Web Component support
+ * Detect native Web Component support.
  *
+ * @category Detect
  * @return {Boolean} true or false
+ * @example
+ *
+ * hasWebcomponentSupport();
+ * // => true|false
  */
 function hasWebcomponentSupport() {
     if ('registerElement' in document &&

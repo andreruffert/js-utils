@@ -1,8 +1,13 @@
 /**
  * Extend a given object with all the properties in passed-in object(s).
  *
- * @param  {Object} obj
+ * @category Object
+ * @param {Object} obj
  * @return {Object}
+ * @example
+ *
+ * extend({ 'user': 'barney' }, { 'age': 40 }, { 'user': 'fred' });
+ * // => { 'user': 'fred', 'age': 40 }
  */
 function extend(obj) {
     var i, l, prop, source;

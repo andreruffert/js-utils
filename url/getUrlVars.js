@@ -1,8 +1,13 @@
 /**
  * getUrlVars
  *
- * @param  {Object} options  { query: 'foo=bar&fizz=buzz' }
- * @return {Object}          A map of querystrings e.g. ?foo=bar&fizz=buzz returns x.foo = 'bar' and x.fizz = 'buzz'
+ * @category Url
+ * @param {Object} options { query: 'foo=bar&fizz=buzz' }
+ * @return {Object} A map of querystrings e.g. ?foo=bar&fizz=buzz returns x.foo = 'bar' and x.fizz = 'buzz'
+ * @example
+ *
+ * getUrlVars({query: 'foo=bar&fizz=buzz'});
+ * // => Object {foo: "bar", fizz: "buzz"}
  */
 function getUrlVars(options) {
     var opts = options || {};

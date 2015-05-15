@@ -1,12 +1,15 @@
 /**
  * Get the number of days in a month
  *
- * @param  {Integer} y year
- * @param  {Integer} m month
- * @return {Integer}   days
+ * @category Date
+ * @param {Integer} year The year
+ * @param {Integer} month The month
+ * @return {Integer} Returns the number of days in the given month
+ * @example
  *
- * @usage  daysInMonth(2015, 2); //28
+ * daysInMonth(2015, 2);
+ * // => 28
  */
-function daysInMonth(y, m) {
-    return (new Date(y, m, 0)).getDate();
+function daysInMonth(year, month) {
+    return (new Date(year, month, 0)).getDate();
 }

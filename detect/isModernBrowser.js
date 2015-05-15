@@ -1,8 +1,12 @@
 /**
- * isModernBrowser
- * Simple feature detection to identify HTML5 Browsers [gt ie9]
+ * Simple feature detection to identify HTML5 Browsers ([gt ie9]).
  *
+ * @category Detect
  * @return {Boolean} true or false
+ * @example
+ *
+ * isModernBrowser();
+ * // => true|false
  */
 function isModernBrowser() {
     if ('querySelector' in document &&
