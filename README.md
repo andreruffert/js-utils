@@ -27,6 +27,7 @@ Take what you need! :v:
 ### function
 * [debounce()](/function/debounce.js)
 * [delay()](/function/delay.js)
+* [noop()](/function/noop.js)
 * [once()](/function/once.js)
 * [selectContent()](/function/selectContent.js)
 
