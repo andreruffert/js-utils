@@ -8,5 +8,3 @@
  * // => nothing
  */
 function noop() {}
-
-module.exports = noop;
