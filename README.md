@@ -29,6 +29,7 @@ Take what you need! :v:
 * [delay()](/function/delay.js)
 * [noop()](/function/noop.js)
 * [once()](/function/once.js)
+* [poll()](/function/poll.js)
 * [selectContent()](/function/selectContent.js)
 
 ### number
