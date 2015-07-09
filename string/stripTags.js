@@ -11,4 +11,9 @@
  */
 function stripTags(str) {
     return str.replace(/<[^>]+>/ig, '');
+
+    // different approach (browser only)
+    //var div = document.createElement('div');
+    //div.innerHTML = str;
+    //return div.textContent;
 }
