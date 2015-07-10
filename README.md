@@ -34,6 +34,7 @@ Take what you need! :v:
 
 ### number
 * [pad()](/number/pad.js)
+* [random()](/number/random.js)
 
 ### object
 * [extend()](/object/extend.js)
