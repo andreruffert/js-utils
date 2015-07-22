@@ -11,6 +11,7 @@ Take what you need! :v:
 ### detect
 * [getOrientation()](/detect/getOrientation.js)
 * [getPixelRatio()](/detect/getPixelRatio.js)
+* [hasAppleColorEmoji()](/detect/hasAppleColorEmoji.js)
 * [hasSvgSupport()](/detect/hasSvgSupport.js)
 * [hasTouchScreen()](/detect/hasTouchScreen.js)
 * [isAndroid()](/detect/isAndroid.js)
