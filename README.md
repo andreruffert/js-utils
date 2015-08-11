@@ -12,6 +12,7 @@ Take what you need! :v:
 * [getOrientation()](/detect/getOrientation.js)
 * [getPixelRatio()](/detect/getPixelRatio.js)
 * [hasAppleColorEmoji()](/detect/hasAppleColorEmoji.js)
+* [hasEmojiSupport()](/detect/hasEmojiSupport.js)
 * [hasSvgSupport()](/detect/hasSvgSupport.js)
 * [hasTouchScreen()](/detect/hasTouchScreen.js)
 * [isAndroid()](/detect/isAndroid.js)
