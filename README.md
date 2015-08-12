@@ -46,6 +46,7 @@ Take what you need! :v:
 ### string
 * [slugify()](/string/slugify.js)
 * [stripTags()](/string/stripTags.js)
+* [ucfirst()](/string/ucfirst.js)
 
 ### url
 * [getCurrentQueryString()](/url/getCurrentQueryString.js)
