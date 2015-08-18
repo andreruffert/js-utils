@@ -13,6 +13,7 @@ Take what you need! :v:
 * [getPixelRatio()](/detect/getPixelRatio.js)
 * [hasAppleColorEmoji()](/detect/hasAppleColorEmoji.js)
 * [hasEmojiSupport()](/detect/hasEmojiSupport.js)
+* [hasLocalStorageSupport()](/detect/hasLocalStorageSupport.js)
 * [hasSvgSupport()](/detect/hasSvgSupport.js)
 * [hasTouchScreen()](/detect/hasTouchScreen.js)
 * [isAndroid()](/detect/isAndroid.js)
