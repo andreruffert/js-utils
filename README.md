@@ -3,6 +3,7 @@
 Take what you need! :v:
 
 ### array
+* [getClosestNumber()](/array/getClosestNumber.js)
 * [toArray()](/array/toArray.js)
 
 ### date
