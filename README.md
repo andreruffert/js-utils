@@ -4,6 +4,7 @@ Take what you need! :v:
 
 ### array
 * [getClosestNumber()](/array/getClosestNumber.js)
+* [shuffle()](/array/shuffle.js)
 * [toArray()](/array/toArray.js)
 
 ### date
