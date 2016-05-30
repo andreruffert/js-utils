@@ -38,6 +38,7 @@ Take what you need! :v:
 * [selectContent()](/function/selectContent.js)
 
 ### number
+* [currencyFormat()](/number/currencyFormat.js)
 * [pad()](/number/pad.js)
 * [random()](/number/random.js)
 
