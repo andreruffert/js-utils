@@ -53,6 +53,7 @@ Take what you need! :v:
 * [ucfirst()](/string/ucfirst.js)
 
 ### url
+* [getAbsoluteUrl()](/url/getAbsoluteUrl.js)
 * [getCurrentQueryString()](/url/getCurrentQueryString.js)
 * [getUrlHash()](/url/getUrlHash.js)
 * [getUrlVars()](/url/getUrlVars.js)
