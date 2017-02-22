@@ -49,6 +49,7 @@ Take what you need! :v:
 
 ### string
 * [slugify()](/string/slugify.js)
+* [stripEntities()](/string/stripEntities.js)
 * [stripTags()](/string/stripTags.js)
 * [ucfirst()](/string/ucfirst.js)
 
