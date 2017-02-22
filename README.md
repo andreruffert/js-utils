@@ -48,6 +48,7 @@ Take what you need! :v:
 * [isString()](/object/isString.js)
 
 ### string
+* [removeLeadingSlash()](/string/removeLeadingSlash.js)
 * [slugify()](/string/slugify.js)
 * [stripEntities()](/string/stripEntities.js)
 * [stripTags()](/string/stripTags.js)
