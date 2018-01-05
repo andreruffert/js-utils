@@ -32,6 +32,7 @@ Take what you need! :v:
 ### function
 * [debounce()](/function/debounce.js)
 * [delay()](/function/delay.js)
+* [isEmpty()](/function/isEmpty.js)
 * [noop()](/function/noop.js)
 * [once()](/function/once.js)
 * [poll()](/function/poll.js)
