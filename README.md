@@ -3,6 +3,7 @@
 Take what you need! :v:
 
 ### array
+* [fillArray()](/array/fillArray.js)
 * [getClosestNumber()](/array/getClosestNumber.js)
 * [shuffle()](/array/shuffle.js)
 * [toArray()](/array/toArray.js)
